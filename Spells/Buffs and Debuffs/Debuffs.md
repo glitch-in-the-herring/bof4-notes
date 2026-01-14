@@ -1,0 +1,1 @@
+Debuff spells decrease the stats of a combatant. Most debuff spells do not modify the stat directly, but rather, they modify the matching [[Stat Multiplier|stat multiplier]].

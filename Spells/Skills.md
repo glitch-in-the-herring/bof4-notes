@@ -1,0 +1,2 @@
+Skills are abilities that can be learned by characters outside of the ones obtained by [[Levelling Up]].
+The game treats every spell with a spell ID between `0x54` and `0x9f` (inclusive) to be a skill in the [[Skill List]]. Some skills can be obtained by [[Learning|learning]], some can be obtained by apprenticing under [[Masters|masters]].

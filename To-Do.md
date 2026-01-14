@@ -1,0 +1,18 @@
+- [ ] [[Learning]]: When apprenticed under the abbess, what is the value loaded by `0x801d8378` ?
+- [ ] [[Resistance]]: Update the holy resistance data in the enemy database and technical guide
+- [ ] [[Stat Change Data]]: For the other table, these numbers also have effects:
+    - `0x01`
+    - `0x03`
+    - `0x07`
+- [ ] [[Wills]]: Find the conditions
+- [ ] [[Barrier]]: Does it use the same function for non-damaging magical attacks? 
+- [ ] [[War Shout]]: Faerie calculations
+- [ ] A lot of the code has unexplored branches, these should be added.
+- [ ] [[In-a-Row Combo]] needs a lot of checking
+- [ ] [[Palliate]]: Status effect removal
+- [ ] [[Rest]]: There's a separate formula for AP healing
+- [ ] [[Spells/General Table|General Table]]: Are elements even used? If so, what are the IDs?
+- [ ] [[AREAE015]]: What is going on with the King's Sword ID?
+- [ ] [[Masters]]: Find their requirements
+- [ ] [[Rusted Sword - Slayer]]: The game loops through the target indexes to make sure that when selecting a party member it's never the attacker. See `bofif slayer change target.txt`, `0x801d5fdc`
+- [ ] 

@@ -1,0 +1,1 @@
+The game stores a table of where each file is located in `/SLUS_013.24`. Each entry is a 32-bit integer containing the start [[sector]] of each file. The files are ordered alphabetically. To get a file's size, multiply the difference between the file's start sector and the start sector of the next file by 2048.

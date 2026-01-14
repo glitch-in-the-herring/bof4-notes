@@ -1,0 +1,1 @@
+This is the exterior of the Dengeki Store area. 

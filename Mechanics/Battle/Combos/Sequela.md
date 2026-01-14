@@ -1,0 +1,2 @@
+Because this is objectively a cooler term.
+When a spell is not the first spell in a combo chain, the spell may give additional effects, such as additional hits or extra buffs. Every spell that has sequelae has them listed in their notes.
