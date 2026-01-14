@@ -2,6 +2,7 @@
 | ID           | Equipped By  | Element | Weight | Power | Hits | Shield Damage |
 | ------------ | ------------ | ------- | ------ | ----- | ---- | ------------- |
 | `0x56`<br>86 | Ryu<br>Scias | None    | 15     | 70    | 1    | 7             |
+|              |              |         |        |       |      |               |
 
 The Dragonslayer is a weapon that deals additional to Ryu and Fou-Lu. How much more? *Three times*. It also deals... no extra damage to dragon-type enemies. This weapon disappears from the player's inventory after Cray kills Elina.
 

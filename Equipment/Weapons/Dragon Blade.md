@@ -1,6 +1,7 @@
 | ID           | Equipped By   | Element | Weight | Power | Hits | Shield Damage |
 | ------------ | ------------- | ------- | ------ | ----- | ---- | ------------- |
 | `0x13`<br>19 | Ryu<br>Fou-Lu | None    | 8      | 128   | 1    | 4             |
+
 Not to be confused with the [[Dragonslayer]], The Dragon Blade deals 50% extra damage to dragons.
 ```
 801d3cd4 lbu     $v1, 0x0002(v0) ; load target's type
