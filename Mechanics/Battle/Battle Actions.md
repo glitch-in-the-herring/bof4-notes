@@ -7,6 +7,7 @@
 | `0x03` | Escape?         | Shows the escape message but does nothing |
 | `0x04` | Spell           | The byte after is the ID of the spell     |
 | `0x05` | Use item        | The byte after is the ID of the item      |
+
 Anything above `0x05` does not work.
 ## Player's Party
 The memory location that stores the action that the current party member chooses is located at `+0x139` from the party member's base address.

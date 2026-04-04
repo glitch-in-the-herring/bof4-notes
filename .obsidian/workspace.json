@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "4dccf8395bc9c7bb",
+        "id": "a2e6a42c6b692513",
         "type": "tabs",
         "children": [
           {
-            "id": "6d22d4cde5181fac",
+            "id": "17a8e82b1f06c00f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equipment/Weapons/Dragon Blade.md",
+                "file": "Equipment/Accessories/Elemental Rings and Wards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dragon Blade"
+              "title": "Elemental Rings and Wards"
+            }
+          },
+          {
+            "id": "441d83df4c7c22b1",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Equipment/Weapons/Dragonslayer.md",
+                "bFile": "Equipment/Weapons/Dragonslayer.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Dragonslayer  (Working Tree)"
+            }
+          },
+          {
+            "id": "0e938fe6af995ebd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Equipment/Armor/Armor Side Effect Call.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Armor Side Effect Call"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sub",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,21 +169,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equipment/Weapons/Dragon Blade.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dragon Blade"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "d6f410f6508511a0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 304.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,39 +202,40 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d22d4cde5181fac",
+  "active": "441d83df4c7c22b1",
   "lastOpenFiles": [
-    "Mechanics/Battle/Stat Multiplier.md",
+    "Equipment/Accessories/Accessory Side Effect Call.md",
+    "Equipment/Armor/Armor Side Effect Call.md",
+    "Equipment/Accessories/Elemental Rings and Wards.md",
+    "Equipment/Weapons/Weapon Side Effect Call.md",
+    "Equipment/Armor/General Table.md",
+    "Equipment/Armor/Sage's Frock.md",
+    "Equipment/Armor/Life Armor.md",
+    "Equipment/Weapons/Dragon Blade.md",
     "Equipment/Weapons/Dragonslayer.md",
+    "Equipment/Weapons/General Table.md",
+    "Equipment/Weapons/Linked Pole.md",
+    "Equipment/Weapons/Rune Staff.md",
+    "Equipment/Weapons/Sage's Staff.md",
+    "Mechanics/Field Party Data.md",
+    "Equipment/Equipability.md",
+    "Mechanics/Battle/Combatant Data.md",
+    "Equipment/Armor/Ershin's Special Armor.md",
+    "Equipment/Weight.md",
+    "Mechanics/Battle/Battle Actions.md",
+    "Equipment/Weapons/Rusted Sword - Slayer.md",
+    "Mechanics/Battle/Stat Multiplier.md",
     "Mechanics/Battle/Formulae/Magic Formula.md",
     "Equipment/Weapons/Cleaver.md",
     "Items/General Table.md",
-    "Equipment/Weapons/Linked Pole.md",
-    "Equipment/Armor/Life Armor.md",
     "Mechanics/Game Points/Rafting Minigame.md",
     "README.md",
-    "Mechanics/Battle/Resistance.md",
     "LICENSE.txt",
-    "Mechanics/Game Points/NPC Penalty.md",
-    "Mechanics/Battle/Formulae/Breath Formula.md",
-    "Mechanics/Battle/Battle Actions.md",
-    "Mechanics/Battle/Formulae/Melee Formula.md",
-    "Technical/File Table.md",
-    "Mechanics/Masters.md",
-    "Mechanics/Battle/Elements.md",
-    "Mechanics/Battle/Dragon Forms.md",
-    "Spells/General Success Rate Formula.md",
-    "Spells/Drainers/Depress.md",
-    "Mechanics/Battle/Combatant Data.md",
-    "Spells/Elemental Combos/Earth-Fire/Ragnarok.md",
-    "Technical/Game Controls.md",
-    "AREA FIles/AREAE005.md",
-    "Mechanics/Faerie Village/Initialization.md",
     "Mechanics/Faerie Village",
-    "Mechanics/Battle/Critical Hit.md",
     "Spells/Melee Spells",
     "Spells/Other Attacks",
     "Untitled",

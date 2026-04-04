@@ -3,11 +3,13 @@ Rusted Sword:
 | ID           | Equipped By            | Element | Weight | Power | Hits | Shield Damage |
 | ------------ | ---------------------- | ------- | ------ | ----- | ---- | ------------- |
 | `0x53`<br>83 | Ryu<br>Scias<br>Fou-Lu | None    | 2      | 40    | 1    | 2             |
+
 Slayer:
 
 | ID           | Equipped By            | Element | Weight | Power | Hits | Shield Damage |
 | ------------ | ---------------------- | ------- | ------ | ----- | ---- | ------------- |
 | `0x84`<br>84 | Ryu<br>Scias<br>Fou-Lu | None    | 4      | 80    | 2    | 2             |
+
 The Rusted Sword is a weapon that can only be obtained from either Teepo in Chek after the game is cleared, or through the second Manillo in the Dengeki Store. Every enemy killed by the Rusted Sword adds to a counter. When this counter is greater than or equal to 1000, it turns into the Slayer, a much better weapon.
 
 The Slayer is a weapon that deals two hits with every attack and steals some of the enemy's HP to the weapon's wielder. It has a ... chance to attack a party member instead of the enemy.
