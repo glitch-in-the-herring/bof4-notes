@@ -1,7 +1,7 @@
 Lottery tickets can be purchased at the Dengeki store.
 
 ## Tickets
-Internally, ticket numbers are stored as 16-bit little-endian hexadecimal integers. Each digit on the ticket is a hexadecimal digit. For example, a ticket with the digits `1 3 3 7` is stored as `0x3713`. The tickets can be found at:
+Internally, ticket numbers are stored as 16-bit little-endian hexadecimal integers. Each digit on the ticket is a hexadecimal digit. For example, a ticket with the digits `1 3 3 7` is stored as `37 13`. The tickets can be found at:
 * `0x8011b768` in the game's RAM
 Tickets are considered inventory items. However, the number of tickets you have purchased is also kept track in another location as well, which can be found at:
 * `0x8011b7b5` in the game's RAM
