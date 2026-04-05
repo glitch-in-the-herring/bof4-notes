@@ -1,4 +1,4 @@
-Combatant data starts at `0x801c79b8` in the RAM and is 420 bytes long for each combatant. 
+The player's combatant data starts at `0x801c79b8` in the RAM and is 420 bytes long for each combatant. 
 
 | Position | Description | Value(s)                     | Note |
 | -------- | ----------- | ---------------------------- | ---- |

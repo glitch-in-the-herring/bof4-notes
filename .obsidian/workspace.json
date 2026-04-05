@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Lottery.md",
+                "file": "Equipment/Weapons/Chopsticks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lottery"
+              "title": "Chopsticks"
             }
           },
           {
@@ -235,19 +235,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c37b707d5a2b17d",
+  "active": "4a12f87feb0f18e4",
   "lastOpenFiles": [
-    "Mechanics/Battle/Resistance.md",
-    "Mechanics/Field Party Data.md",
-    "Mechanics/Battle/Combatant Data.md",
-    "Equipment/Weapons/Sage's Staff.md",
     "Equipment/Weapons/Rusted Sword - Slayer.md",
+    "Equipment/Weapons/Chopsticks.md",
+    "Mechanics/Battle/Combatant Data (Player).md",
+    "Mechanics/Field Party Data.md",
+    "Equipment/Weapons/Weapon Side Effect Call.md",
+    "Equipment/Accessories/Accessory Code.md",
+    "Mechanics/Lottery.md",
+    "Mechanics/Battle/Resistance.md",
+    "Equipment/Weapons/Sage's Staff.md",
     "Equipment/Weapons/Rune Staff.md",
     "Equipment/Armor/Armor Side Effect Call.md",
     "Equipment/Weapons/Cleaver.md",
     "Equipment/Accessories/Elemental Rings and Wards.md",
     "Equipment/Accessories/Accessory Side Effect Call.md",
-    "Equipment/Weapons/Weapon Side Effect Call.md",
     "Equipment/Armor/General Table.md",
     "Equipment/Armor/Sage's Frock.md",
     "Equipment/Armor/Life Armor.md",
@@ -260,9 +263,6 @@
     "Equipment/Weight.md",
     "Mechanics/Battle/Battle Actions.md",
     "Mechanics/Battle/Stat Multiplier.md",
-    "Mechanics/Battle/Formulae/Magic Formula.md",
-    "Items/General Table.md",
-    "Mechanics/Game Points/Rafting Minigame.md",
     "LICENSE.txt",
     "Mechanics/Faerie Village",
     "Spells/Melee Spells",
