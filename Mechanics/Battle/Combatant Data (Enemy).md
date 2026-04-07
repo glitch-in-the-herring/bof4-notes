@@ -1,0 +1,1 @@
+Combatant data for enemies starts at 
