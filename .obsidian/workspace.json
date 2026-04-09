@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equipment/Weapons/Rusted Sword - Slayer.md",
+                "file": "Equipment/Accessories/Medallion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rusted Sword - Slayer"
+              "title": "Medallion"
+            }
+          },
+          {
+            "id": "238d29d73679d035",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Equipment/Armor/Life Armor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Life Armor"
             }
           }
         ]
@@ -180,6 +194,11 @@
   },
   "active": "1c37b707d5a2b17d",
   "lastOpenFiles": [
+    "Equipment/Accessories/Harmonic Ring.md",
+    "Equipment/Armor/Midas' Armor.md",
+    "Equipment/Armor/Life Armor.md",
+    "Mechanics/Inventory.md",
+    "Equipment/Weapons/Rusted Sword - Slayer.md",
     "Equipment/Weapons/General Table.md",
     "Mechanics/Battle/Combatant Data (Enemy).md",
     "Mechanics/HP-AP Change.md",
@@ -190,7 +209,6 @@
     "Mechanics/Battle/Formulae/Magic Formula.md",
     "Equipment/Weapons/Dragonslayer.md",
     "Equipment/Weapons/Dragon Blade.md",
-    "Equipment/Weapons/Rusted Sword - Slayer.md",
     "Equipment/Weapons/Cleaver.md",
     "Mechanics/Battle/Combatant Data (Player).md",
     "Equipment/Weapons/Homing Bomb.md",
@@ -202,10 +220,6 @@
     "Equipment/Weapons/Sage's Staff.md",
     "Mechanics/Field Party Data.md",
     "Equipment/Weapons/Weapon Side Effect Call.md",
-    "Equipment/Accessories/Accessory Code.md",
-    "Mechanics/Lottery.md",
-    "Mechanics/Battle/Resistance.md",
-    "Equipment/Weapons/Rune Staff.md",
     "LICENSE.txt",
     "Mechanics/Faerie Village",
     "Spells/Melee Spells",

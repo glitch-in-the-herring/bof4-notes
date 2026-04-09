@@ -12,6 +12,9 @@ There are two inventories:
 	* Accessories
 		* Starts at `0x8011b398` in the ram
 		* Starts at
+	* Zenny
+		* Can be found at `0x8011ad80` in the RAM
+		* Can be found at
 * Fou-lu's inventory
 	* Items
 		* Starts at `0x8011ae98` in the RAM

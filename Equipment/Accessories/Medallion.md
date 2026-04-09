@@ -2,7 +2,7 @@
 | ------------ | ----------- | ------ | -------------- |
 | `0x55`<br>85 | All         | 0      | 0<br>See below |
 The medallion is an accessory that initially gives +3 ATK and -3 DEF to the wearer, if the wearer is the only one using it. The effect is multiplied for every other character using it, and when everyone in the party is wearing it, the negative defense modifier becomes positive.
-Note that the requirement is *everyone*, not *six people*. This means that Fou-lu wearing it alone is gives +3 ATK and +3 DEF. In a party of only Ryu, Nina, and Ershin, if everyone is wearing a medallion, then each party member gets +9 ATK and +9 DEF.
+Note that the requirement is *everyone*, not *six people*. This means that Fou-lu wearing it alone gives +3 ATK and +3 DEF. In a party of only Ryu, Nina, and Ershin, if everyone is wearing a medallion, then each party member gets +9 ATK and +9 DEF.
 
 The number of characters that are currently wearing the medallion is tracked at `0x8011a910` in the RAM. If everyone is wearing it, then it becomes `0xff`. The byte next to it, `0x8011a911` is the number of currently active party members.
 
