@@ -13,3 +13,4 @@ Not to be confused with the [[Dragonslayer]], The Dragon Blade deals 50% extra d
 801d3ce4 sra     $v0, $s0, 0x01 ; damage / 2
 801d3ce8 addu    $s0, $v0 ; damage + damage / 2
 ```
+It can be found at `BIN/BATTLE/BTLMOVE.EMI: 0000bcd4`

@@ -1,7 +1,7 @@
 | Armor ID     | Equipability                   | Weight | Defense |
 | ------------ | ------------------------------ | ------ | ------- |
 | `0x2e`<br>46 | Ryu<br>Cray<br>Scias<br>Fou-Lu | 2      | 25      |
-Midas' Armor turns 25% of damaged received + 25 to zenny.
+Midas' Armor turns 2% of damaged received + 25 to zenny.
 ```
 801d9608 lbu    $v1, 0x011d(v0) ; load armor ID
 801d960c li     $v0, 0x002e
