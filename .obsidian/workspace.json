@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "87050d3a39ce3b78",
+            "id": "5e14039166e6f6f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,8 +63,7 @@
               "title": "Combatant Data (Player)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mechanics/Battle/Critical Hit.md",
+                "file": "Mechanics/Battle/Accuracy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Critical Hit"
+              "title": "Outline of Accuracy"
             }
           },
           {
@@ -221,13 +220,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6f410f6508511a0",
+  "active": "ec61f8bc005459a4",
   "lastOpenFiles": [
-    "Mechanics/Critical Hit.md",
+    "Mechanics/Battle/Formulae/Melee Formula.md",
     "Mechanics/Battle/Critical Hit.md",
     "Mechanics/Battle/Accuracy.md",
+    "Mechanics/Critical Hit.md",
     "Mechanics/Battle/Combatant Data (Player).md",
-    "Mechanics/Battle/Formulae/Melee Formula.md",
     "Equipment/Weapons/Cursed Sword.md",
     "Breath of Fire IV.md",
     "Mechanics/Text/Info Box.md",

@@ -35,7 +35,7 @@ $$
 \end{cases}
 $$
 * $\mathcal{C}$ is the attacker's critical rate
-In other words, the probability of landing a critical hit is attacker's critical rate divided by 100.
+In other words, the probability of landing a critical hit is attacker's critical rate divided by 100. This formula is called a few frames before the actual damage calculation
 The code can be found at `BIN/BATTLE/BTLMOVE.EMI: 00017638`
 ```
 801df638 jal     0x8016f384 ; call rand()
