@@ -1,5 +1,11 @@
 
 $$
+d' = \begin{cases}
+d & \text{Not a critical hit}\\
+d + 10(PWR_A+LVL_A) & \text{Critical hit}
+\end{cases}
+$$
+$$
 d = \left\lfloor\frac{R_w\delta}{10000}\right\rfloor
 $$
 $$
@@ -211,4 +217,35 @@ The following code can be found at `BIN/BATTLE/BTLMOVE.EMI: 0000bef8`
 801d4258 mfhi    $t0, $hi
 801d425c sra     $v1, $t0, 0x0c
 801d4260 subu    $v0, $v1, $v0 ; damage
+...
+801d96b4 lhu    $v0, 0x0000(v0) ; load attack flag
+801d96b8 nop    
+801d96bc andi   $v0, 0x0004 
+801d96c0 beqz   $v0, 0x801d96e0
+; if the attack is a critical hit
+801d96c4 lui    $v0, 0x8012
+801d96c8 lw     $a1, -0x1ec0(v0)
+801d96cc nop    
+801d96d0 lw     $a0, 0x000c(a1) ; load previous damage
+801d96d4 nop    
+801d96d8 bnez   $a0, 0x801d96e8
+801d96dc nop    
+801d96e8 lbu    $v0, -0x1f40(a2)
+801d96ec nop    
+801d96f0 sltiu  $v0, 0x0006
+801d96f4 beqz   $v0, 0x801d97c8
+801d96f8 nop    
+801d96fc bltz   $a0, 0x801d972c
+801d9700 nop    
+801d9704 lw     $v0, 0x000c(v1)
+801d9708 lhu    $v1, 0x001e(v1) ; load attacker's PWR
+801d970c lhu    $v0, 0x00a6(v0) ; load attacker's level
+801d9710 srl    $v1, 0x02 ; multiply PWR by 4
+801d9714 addu   $v1, $v0 ; add 4*PWR to level
+801d9718 sll    $v0, $v1, 0x02 ; multiply (4*PWR + level) by 4
+801d971c addu   $v0, $v1 ; multiply (4*PWR + level) by 5
+801d9720 sll    $v0, 0x01 ; multiply (4*PWR + level) by 10
+801d9724 j      0x801d9750
+801d9728 addu   $v0, $a0, $v0 ; add (4*PWR + level) by 10 to previous damage
+801d9750 sw     $v0, 0x000c(a1) ; store as new damage
 ```
