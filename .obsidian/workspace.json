@@ -13,44 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Battle/Accuracy.md",
+                "file": "Spells/Buffs and Debuffs/Focus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Accuracy"
+              "title": "Focus"
             }
           },
           {
-            "id": "5e14039166e6f6f7",
+            "id": "64914347c8925f6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Battle/Critical Hit.md",
+                "file": "Mechanics/Battle/Formulae/Magic Formula.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Critical Hit"
+              "title": "Magic Formula"
             }
           },
           {
-            "id": "b93a90f6d5c43fec",
+            "id": "b839974026f8be17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Battle/Formulae/Melee Formula.md",
+                "file": "Spells/Counters/Backlash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Melee Formula"
+              "title": "Backlash"
             }
           },
           {
-            "id": "07ce6d5b40894cc1",
+            "id": "912915ecff7abb14",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,8 +62,23 @@
               "icon": "lucide-file",
               "title": "Combatant Data (Player)"
             }
+          },
+          {
+            "id": "bc8b7f8f152a5db4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mechanics/Battle/Combatant Data (Enemy).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Combatant Data (Enemy)"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "physical",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,13 +235,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec61f8bc005459a4",
+  "active": "b839974026f8be17",
   "lastOpenFiles": [
-    "Mechanics/Battle/Formulae/Melee Formula.md",
+    "Mechanics/Battle/Combatant Data (Enemy).md",
+    "Mechanics/Battle/Combatant Data (Player).md",
+    "Spells/Counters/Backlash.md",
+    "Mechanics/Status Effects/Poison.md",
+    "Spells/Spell Icons.md",
     "Mechanics/Battle/Critical Hit.md",
+    "Spells/Healing Spells/Cheering.md",
+    "Spells/General Table.md",
+    "Mechanics/Battle/Battle Actions.md",
+    "Spells/Targeting.md",
+    "Mechanics/Battle/Formulae/Melee Formula.md",
+    "Spells/Counters",
+    "Mechanics/Battle/Formulae/Magic Formula.md",
+    "Spells/Healing Spells/Heal.md",
+    "Spells/Buffs and Debuffs/Focus.md",
+    "Spells/Buffs and Debuffs/Concentrate.md",
     "Mechanics/Battle/Accuracy.md",
     "Mechanics/Critical Hit.md",
-    "Mechanics/Battle/Combatant Data (Player).md",
     "Equipment/Weapons/Cursed Sword.md",
     "Breath of Fire IV.md",
     "Mechanics/Text/Info Box.md",
@@ -238,18 +266,6 @@
     "Equipment/Weapons/Dragon Blade.md",
     "Equipment/Armor/Midas' Armor.md",
     "Equipment/Accessories/Medallion.md",
-    "Spells/Targeting.md",
-    "Spells/General Table.md",
-    "Equipment/Armor/Life Armor.md",
-    "Mechanics/Battle/Combos/Sequela.md",
-    "Items/General Table.md",
-    "Equipment/Accessories/Harmonic Ring.md",
-    "Mechanics/Inventory.md",
-    "Equipment/Weapons/Rusted Sword - Slayer.md",
-    "Equipment/Weapons/General Table.md",
-    "Mechanics/Battle/Combatant Data (Enemy).md",
-    "Mechanics/HP-AP Change.md",
-    "Mechanics/Battle/Stat Multiplier.md",
     "LICENSE.txt",
     "Mechanics/Faerie Village",
     "Spells/Melee Spells",
@@ -257,7 +273,6 @@
     "Untitled",
     "Mechanics/Battle/Dragon Forms",
     "Spells/Status Spells/Flex",
-    "Spells/Status Spells",
     "AREA FIles/assets/Noritake-san's Town.png",
     "AREA FIles/assets/Random Horse.png",
     "Pasted image 20241018201930.png",

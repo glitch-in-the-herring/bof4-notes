@@ -1,1 +1,1 @@
-Combatant data for enemies starts at 
+Combatant data for enemies starts at `0x801c6ec0`
