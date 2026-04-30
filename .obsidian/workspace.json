@@ -4,81 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "8fd889648f635f2c",
+        "id": "be3c7dd0cb9ff147",
         "type": "tabs",
         "children": [
           {
-            "id": "ec61f8bc005459a4",
+            "id": "f9f5ad6613858f9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spells/Buffs and Debuffs/Focus.md",
+                "file": "Spells/Melee Spells/Double Blow, Multistrike, and Triple Blow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Focus"
+              "title": "Double Blow, Multistrike, and Triple Blow"
             }
           },
           {
-            "id": "64914347c8925f6a",
+            "id": "16c95d9adef1487b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Battle/Formulae/Magic Formula.md",
+                "file": "Mechanics/Battle/Formulae/Melee Formula.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Magic Formula"
+              "title": "Melee Formula"
             }
           },
           {
-            "id": "b839974026f8be17",
+            "id": "ae4f9edcd240d01f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spells/Counters/Backlash.md",
+                "file": "Spells/Targeting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backlash"
-            }
-          },
-          {
-            "id": "912915ecff7abb14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mechanics/Battle/Combatant Data (Player).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Combatant Data (Player)"
-            }
-          },
-          {
-            "id": "bc8b7f8f152a5db4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mechanics/Battle/Combatant Data (Enemy).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Combatant Data (Enemy)"
+              "title": "Targeting"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mechanics/Battle/Accuracy.md",
+                "file": "Spells/Melee Spells/Double Blow, Multistrike, and Triple Blow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Accuracy"
+              "title": "Outline of Double Blow, Multistrike, and Triple Blow"
             }
           },
           {
@@ -235,10 +206,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b839974026f8be17",
+  "active": "d6f410f6508511a0",
   "lastOpenFiles": [
+    "Mechanics/Battle/Formulae/Melee Formula.md",
+    "Spells/Targeting.md",
     "Mechanics/Battle/Combatant Data (Enemy).md",
     "Mechanics/Battle/Combatant Data (Player).md",
+    "Spells/Melee Spells/Double Blow, Multistrike, and Triple Blow.md",
+    "Equipment/Weapons/General Table.md",
+    "Spells/Melee Spells/Coward's Way.md",
+    "Mechanics/Text/Info Box.md",
+    "Spells/Buffs and Debuffs/Focus.md",
+    "Mechanics/Battle/Formulae/Magic Formula.md",
     "Spells/Counters/Backlash.md",
     "Mechanics/Status Effects/Poison.md",
     "Spells/Spell Icons.md",
@@ -246,26 +225,18 @@
     "Spells/Healing Spells/Cheering.md",
     "Spells/General Table.md",
     "Mechanics/Battle/Battle Actions.md",
-    "Spells/Targeting.md",
-    "Mechanics/Battle/Formulae/Melee Formula.md",
     "Spells/Counters",
-    "Mechanics/Battle/Formulae/Magic Formula.md",
     "Spells/Healing Spells/Heal.md",
-    "Spells/Buffs and Debuffs/Focus.md",
     "Spells/Buffs and Debuffs/Concentrate.md",
     "Mechanics/Battle/Accuracy.md",
     "Mechanics/Critical Hit.md",
     "Equipment/Weapons/Cursed Sword.md",
     "Breath of Fire IV.md",
-    "Mechanics/Text/Info Box.md",
     "Spells/Buffs and Debuffs/Limits.md",
     "Spells/Buffs and Debuffs/Megaphone.md",
     "Technical/Rendering/Camera.md",
     "Mechanics/Text/Top Infp",
     "Mechanics/Text",
-    "Equipment/Weapons/Dragon Blade.md",
-    "Equipment/Armor/Midas' Armor.md",
-    "Equipment/Accessories/Medallion.md",
     "LICENSE.txt",
     "Mechanics/Faerie Village",
     "Spells/Melee Spells",
