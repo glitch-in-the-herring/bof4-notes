@@ -10,8 +10,5 @@ The Rune Staff adds 5 to the user's CP and 10 to the user's Wisdom.
 801938c8 sh     $v0, 0x0040(s0) ; store new CP
 801938cc j      0x80193940
 801938d0 sh     $v1, 0x0048(s0) ; store new WIS
-80193940 lw     $ra, 0x0014(sp)
-80193944 lw     $s0, 0x0010(sp)
-80193948 jr     $ra
 ```
 This code can be found at `BIN/SYSTEM/GAME.EMI: 000068b8`.

@@ -8,8 +8,5 @@ The Sage's Frock gives the user +5 Wisdom.
 80193ae0 addiu  $v0, 0x0005 ; add 5 to WIS
 80193ae4 j      0x80193c70
 80193ae8 sh     $v0, 0x0048(s0) ; store new WIS
-80193c70 lw     $ra, 0x0014(sp)
-80193c74 lw     $s0, 0x0010(sp)
-80193c78 jr     $ra
 ```
 The code can be found at `BIN/SYSTEM/GAME.EMI: 00006ad8`.

@@ -1,4 +1,6 @@
-An accessory side effect call is a function that is called when an accessory is equipped. 
+An accessory side effect call is a function that is called when an accessory is equipped. The base address for the functions is 
+* `0x8018da68` in the RAM
+* `BIN/SYSTEM/GAME.EMI: 00000a68` in the game's files
 ```
 80193c90 lbu    $v0, 0x0082(s0) ; load accessory's ID
 80193c94 nop    

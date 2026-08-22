@@ -1,4 +1,6 @@
-An armor side effect call is a function that is called when an armor is equipped. 
+An armor side effect call is a function that is called when an armor is equipped. The base address for the functions is 
+* `0x8018d978` in the RAM
+* `BIN/SYSTEM/GAME.EMI: 00000978` in the game's files
 ```
 80193960 lbu    $v0, 0x0081(s0) ; load armor's ID
 80193964 nop    
@@ -14,4 +16,4 @@ An armor side effect call is a function that is called when an armor is equipped
 80193988 nop    
 8019398c jr     $v0 ; execute the side effect call
 ```
-This code can be found at `BIN/SYSTEM/GAME.EMI: 00006960`
+This code can be found at `BIN/SYSTEM/GAME.EMI: 00006960`.

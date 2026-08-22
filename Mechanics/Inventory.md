@@ -1,33 +1,33 @@
 There are two inventories: 
-* Ryu's inventory
+* Active party inventory
 	* Items
 		* Starts at `0x8011ad98` in the RAM
-		* Starts at 
+		* Starts at `+0x5cc` in the save files
 	* Weapons
 		* Starts at `0x8011af98` in the RAM
-		* Starts at 
+		* Starts at `+0x7cc` in the save files
 	* Armor
 		* Starts at `0x8011b198` in the RAM
-		* Starts at
+		* Starts at `+0x9cc` in the save files
 	* Accessories
-		* Starts at `0x8011b398` in the ram
-		* Starts at
+		* Starts at `0x8011b398` in the RAM
+		* Starts at `+0xbcc` in the save files
 	* Zenny
 		* Can be found at `0x8011ad80` in the RAM
 		* Can be found at
-* Fou-lu's inventory
+* Inactive party inventory
 	* Items
 		* Starts at `0x8011ae98` in the RAM
-		* Starts at
+		* Starts at `+0x6cc` in the save files
 	* Weapons
 		* Starts at `0x8011b098` in the RAM
-		* Starts at
+		* Starts at `+0x8cc` in the save files
 	* Armor
 		* Starts at `0x8011b298` in the RAM
-		* Starts at
+		* Starts at `+0xacc` in the save files
 	* Accessories
 		* Starts at `0x8011b498` in the RAM
-		* Starts at
+		* Starts at `+0xccc` in the save files
 All of the tables above are 256 bytes in length and follow the same format:
 
 | Position | Description                     | Value(s)               | Note                                                                                |

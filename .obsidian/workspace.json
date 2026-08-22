@@ -4,105 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "328abcda5032c6da",
+        "id": "090b070fa67aa6b6",
         "type": "tabs",
         "children": [
           {
-            "id": "d12a8203fd611771",
+            "id": "89f3a5883813a8a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spells/Breath Attacks/Primus.md",
+                "file": "Mechanics/Party Ordering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Primus"
+              "title": "Party Ordering"
             }
           },
           {
-            "id": "7b4683981d216810",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Mechanics/Battle/Escape.md",
-                "bFile": "Mechanics/Battle/Escape.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Escape  (Working Tree)"
-            }
-          },
-          {
-            "id": "cc870739bda6b2a4",
+            "id": "dd087b8a8299879a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equipment/Armor/Midas' Armor.md",
+                "file": "Mechanics/Inventory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Midas' Armor"
-            }
-          },
-          {
-            "id": "4746016d709b9a14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Equipment/Accessories/Accessory Side Effect Call.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Accessory Side Effect Call"
-            }
-          },
-          {
-            "id": "78bcfa2eb13ee2c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Equipment/Accessories/General Table.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "General Table"
-            }
-          },
-          {
-            "id": "ad3edb3a9c048191",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Equipment/Accessories/Medallion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Medallion"
-            }
-          },
-          {
-            "id": "a777d966ed3c213d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mechanics/Battle/Combatant Data (Player).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Combatant Data (Player)"
+              "title": "Inventory"
             }
           }
         ],
@@ -126,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -138,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "agl",
+                "query": "poison",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -263,36 +195,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b4683981d216810",
+  "active": "1c37b707d5a2b17d",
   "lastOpenFiles": [
-    "Equipment/Armor/Psychometer.md",
-    "Equipment/Armor/Midas' Armor.md",
-    "Equipment/Weapons/Rune Staff.md",
-    "Equipment/Weapons/Sage's Staff.md",
-    "Equipment/Accessories/Wisdom Ring.md",
-    "Equipment/Accessories/Combat Boots.md",
-    "Equipment/Accessories/Accessory Side Effect Call.md",
-    "Equipment/Accessories/General Table.md",
-    "Equipment/Accessories/Medallion.md",
-    "Mechanics/Field Party Data.md",
-    "Mechanics/Battle/Escape.md",
+    "Mechanics/Status Effects/Poison.md",
     "Mechanics/Battle/Combatant Data (Player).md",
-    "Meta/Assembly Math.md",
-    "Mechanics/Battle/Combatant Data (Enemy).md",
-    "Technical/Glitches/Item Duplication.md",
-    "Spells/Distributed Hits.md",
-    "Technical/Glitches",
-    "Spells/Breath Attacks/Primus.md",
+    "Mechanics/Battle/Formulae/Breath Formula.md",
     "Spells/Melee Spells/Double Blow, Multistrike, and Triple Blow.md",
-    "Mechanics/Battle/Formulae/Melee Formula.md",
     "Spells/Targeting.md",
-    "Spells/Spell Icons.md",
-    "Spells/Summons/Fulguration.md",
+    "Mechanics/Levelling Up.md",
+    "Mechanics/Inventory.md",
+    "Items/Healing Items/HP-Healing Items.md",
+    "Mechanics/Battle/Dragon Forms.md",
+    "Mechanics/Battle/Combatant Data (Enemy).md",
+    "Mechanics/Party Ordering.md",
+    "Spells/General Table.md",
+    "Spells/General Success Rate Formula.md",
+    "Mechanics/Masters.md",
+    "Equipment/Armor/Armor Side Effect Call.md",
+    "Equipment/Accessories/Wisdom Ring.md",
+    "Equipment/Accessories/Accessory Side Effect Call.md",
+    "Equipment/Armor/Psychometer.md",
+    "Equipment/Armor/Spirit Armor.md",
+    "Equipment/Armor/Ershin's Special Armor.md",
+    "Equipment/Weapons/Sage's Staff.md",
+    "Equipment/Weapons/Rune Staff.md",
+    "Equipment/Weapons/Linked Pole.md",
+    "Equipment/Armor/Sage's Frock.md",
+    "Spells/Breath Attacks/Primus.md",
+    "Equipment/Accessories/Medallion.md",
+    "Technical/Glitches",
     "Spells/Summons",
-    "Equipment/Weapons/General Table.md",
-    "Spells/Melee Spells/Coward's Way.md",
-    "Mechanics/Text/Info Box.md",
-    "Spells/Buffs and Debuffs/Focus.md",
     "Spells/Counters",
     "Mechanics/Text/Top Infp",
     "Mechanics/Text",
