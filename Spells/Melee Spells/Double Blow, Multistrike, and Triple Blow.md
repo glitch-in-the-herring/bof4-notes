@@ -75,7 +75,7 @@ Double Blow, MultiStrike, and Triple Blow inflict extra physical hits when used.
 ```
 Which can be found at `BIN/BMAGIC/MAGIC084.EMI: 00003178`
 Each hit has less damage than a regular physical attack. The multipliers are:
-* Double Blow:
+* Double Blow (80%):
 ```
 801db288 lui    $a1, 0x51eb
 801db28c lui    $v1, 0x8012
@@ -92,7 +92,7 @@ Each hit has less damage than a regular physical attack. The multipliers are:
 801db2b8 sh     $v0, 0x001e(v1) ; store as new effective PWR
 ```
 Can be found at `BIN/BATTLE/BTLMOVE.EMI: 00013288`
-* Multistrike:
+* Multistrike (70%):
 ```
 801db2bc lui    $a1, 0x51eb
 801db2c0 lui    $a0, 0x8012
@@ -114,7 +114,7 @@ Can be found at `BIN/BATTLE/BTLMOVE.EMI: 00013288`
 801db364 sh     $v1, 0x001e(a0) ; store as new effective PWR
 ```
 Can be found at `BIN/BATTLE/BTLMOVE.EMI: 000132bc`
-* Triple Blow:
+* Triple Blow (60%):
 ```
 801db1a4 nop    
 801db2e8 lui    $a1, 0x51eb

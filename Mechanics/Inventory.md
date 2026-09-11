@@ -14,7 +14,7 @@ There are two inventories:
 		* Starts at `+0xbcc` in the save files
 	* Zenny
 		* Can be found at `0x8011ad80` in the RAM
-		* Can be found at
+		* Can be found at `+0x`
 * Inactive party inventory
 	* Items
 		* Starts at `0x8011ae98` in the RAM
