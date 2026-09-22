@@ -112,3 +112,8 @@ The frequent dodges flag on an enemy causes the attacker to miss 70% of their at
 801dee4c lui    $v1, 0x8012
 ```
 This code can be found at `BIN/BATTLE/BTLMOVE.EMI: 00016d60`.
+## Dodging (Player Party)
+The code that checks for a player party character dodging a hit is only slightly different with the enemy code above:
+```
+
+```

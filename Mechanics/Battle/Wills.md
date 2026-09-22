@@ -17,9 +17,9 @@ This can be changed at `BIN/BATTLE/BTLMOVE.EMI: 00009cc4`.
 ### Fou-Lu
 None.
 ## Master Wills
-### Rwolf
-Rwolf's will takes the average SPD of the front row party members and adds that to the front row party members.
-### Una
+### Rwolf (Haste)
+In a previous version of this note I said that Haste adds the front row's average agility to everyone. This is not what Haste does. Actually, as of the latest update, I still don't know what this for, neither do I know what Haste actually does.
+### Una (Wild)
 Una's will adds 25% to the party member's physical damage, but reduces their accuracy by 10pt. The code can be found at `BIN/BATTLE/BTLMOVE.EMI: 000111d4` in the game's files"
 ```
 801d91d4 8c43000c: lw     $v1(00000008), 0x000c(v0)([801c71ec] = 00000c6b) ; base damage
@@ -28,6 +28,6 @@ Una's will adds 25% to the party member's physical damage, but reduces their acc
 801d91e0 00641821: addu   $v1(00000c6b), $a0(0000031a) ; 125% base damage
 801d91e4 ac43000c: sw     $v1(00000f85), 0x000c(v0)([801c71ec] = 00000c6b) ; store damage
 ```
-## Abbess
-The Abbess' will, Reck, increases the learning rate of the party members apprenticed under her. However, this does not reflect as an immediate increase in the learning rate stat. Rather, a +75 bonus is applied to the learning rate when the learning roll is calculated. 
+## Abbess (Reck)
+The Abbess' will increases the learning rate of the party members apprenticed under her. However, this does not reflect as an immediate increase in the learning rate stat. Rather, a +75 bonus is applied to the learning rate when the learning roll is calculated. 
 For the code, see [[Learning]].
